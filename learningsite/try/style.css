@@ -1,0 +1,95 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  overflow: hidden;
+  background-color: #282a35;
+  padding: 20px 10px;
+}
+
+header a {
+  float: left;
+  color:rgb(255,255,255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+header .logo {
+ height: 50px;
+}
+
+header a:hover {
+  background-color: rgb(0,0, 0);
+  color: rgb(255,255,255);
+}
+
+.header-right {
+  float: right;
+}
+main{
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar{
+  width: 20%;
+  height: 100vh;
+  background-color: rgba(231,233,235,255);
+}
+.sidebar ul{
+  list-style-type: none;
+}
+.sidebar .list  .day{
+  font-size: 25px;
+}
+.sidebar .list .assign{
+  font-size: 22px;
+}
+.sidebar .list .assign #sub-assign{
+  font-size: 18px;
+}
+.sidebar .list .assign #sub-prac{
+  font-size: 18px;
+}
+.hide {
+  display: block !important;
+}
+#assignmentId ,#sub-assign,#sub-prac{
+  display: none;
+}
+#assignmentId1 ,#sub-assign1,#sub-prac1{
+  display: none;
+}
+
+#output{
+  width: 100%;
+  border: 2px solid black;
+}
+#output img{
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 20%;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 2px 20px 10px rgba(0, 0, 0, .4);
+}
+
+#output img:hover{
+  box-shadow:  0 4px 8px 0  rgb(0,0,139), 0 2px 20px 10px rgb(0,0,139);    
+}
+@media screen and (max-width: 500px) {
+  header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}

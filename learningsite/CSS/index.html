@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../image/logo.webp" alt="Logo">
+        <div class="header-right">
+          <a href="../index.html">HOME</a>
+          <a href="../HTML/index.html">HTML</a>
+          <a href="./index.html">CSS</a>
+        </div>
+    </header> 
+    <main>
+        <div class="sidebar">
+            <ul class="list" >
+              <li onclick="toggle('#assignmentId')" class="day" >Day1</li>
+              <ul id="assignmentId">
+                <ul onclick="toggle('#sub-assign')" class="assign">Assignment
+                  <ul id="sub-assign">
+                    <li>Assignment1</li>
+                  </ul>
+                </ul>
+                <ul onclick="toggle('#sub-prac')" class="assign">Practice
+                  <ul id="sub-prac">
+                    <li>Practice1</li>
+                    <li>Practice2</li>
+                    <li>Practice3</li>
+                  </ul>
+                </ul>
+              </ul> 
+              <li onclick="toggle('#assignmentId1')" class="day" >Day2</li>
+              <ul id="assignmentId1">
+                <ul onclick="toggle('#sub-assign1')" class="assign">Assignment
+                  <ul id="sub-assign1">
+                    <li>Assignment1</li>
+                  </ul>
+                </ul>
+                <ul onclick="toggle('#sub-prac1')" class="assign">Practice
+                  <ul id="sub-prac1">
+                    <li>Practice1</li>
+                    <li>Practice2</li>
+                    <li>Practice3</li>
+                  </ul>
+                </ul>
+              </ul>
+              <li onclick="toggle('#assignmentId2')" class="day" >Day3</li>
+              <ul id="assignmentId2">
+                <ul onclick="toggle('#sub-assign2')" class="assign">Assignment
+                  <ul id="sub-assign2">
+                    <li>Assignment1</li>
+                  </ul>
+                </ul>
+                <ul onclick="toggle('#sub-prac2')" class="assign">Practice
+                  <ul id="sub-prac2">
+                    <li>Practice1</li>
+                    <li>Practice2</li>
+                    <li>Practice3</li>
+                  </ul>
+                </ul>
+              </ul> 
+              <li onclick="toggle('#assignmentId3')" class="day" >Day4</li>
+              <ul id="assignmentId3">
+                <ul onclick="toggle('#sub-assign3')" class="assign">Assignment
+                  <ul id="sub-assign3">
+                    <li>Assignment1</li>
+                  </ul>
+                </ul>
+                <ul onclick="toggle('#sub-prac3')" class="assign">Practice
+                  <ul id="sub-prac3">
+                    <li>Practice1</li>
+                    <li>Practice2</li>
+                    <li>Practice3</li>
+                  </ul>
+                </ul>
+              </ul> 
+              <li onclick="toggle('#assignmentId4')" class="day" >Day5</li>
+              <ul id="assignmentId4">
+                <ul onclick="toggle('#sub-assign4')" class="assign">Assignment
+                  <ul id="sub-assign4">
+                    <li>Assignment1</li>
+                  </ul>
+                </ul>
+                <ul onclick="toggle('#sub-prac4')" class="assign">Practice
+                  <ul id="sub-prac4">
+                    <li>Practice1</li>
+                    <li>Practice2</li>
+                    <li>Practice3</li>
+                  </ul>
+                </ul>
+              </ul>  
+            </ul>
+        </div>
+      <div id="output">
+        <img src="../image/logo.webp" alt=""> 
+      </div>  
+    </main>
+</body>
+</html>
