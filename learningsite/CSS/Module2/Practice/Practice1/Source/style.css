@@ -81,15 +81,23 @@ main{
   height: 100vh;
   border: 2px solid black;
 }
-#output img{
-  width: 50%;
-  margin-top: 10%;
-  margin-left: 20%;
-  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 2px 20px 10px rgba(0, 0, 0, .4);
-}
 
-#output img:hover{
-  box-shadow:  0 4px 8px 0  rgb(0,0,139), 0 2px 20px 10px rgb(0,0,139);    
+.sub-output{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.flexbox{
+  display: flex;
+}
+.flexbox div{
+  background-color:rgb(89, 89, 241);
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
 @media screen and (max-width: 500px) {
   header a {
